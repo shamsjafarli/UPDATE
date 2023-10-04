@@ -1,0 +1,123 @@
+/* TABLET */
+@media screen and (max-width:900px) {
+    .logo_title {
+        display: none;
+    }
+
+
+
+
+    .nav-bar {
+        display: none;
+    }
+
+    .ham-btn {
+        display: block;
+    }
+
+    .info {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .info_image,
+    .carusel {
+        width: 100%;
+    }
+
+
+    .info_content {
+        gap: 20px;
+    }
+
+    .carusel {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        gap: 24px;
+    }
+
+
+    . @media screen and(max-width:1200px) {
+
+
+
+
+
+        .nav-list {
+            gap: 10px;
+        }
+
+        .carusel_title {
+
+            color: var(--textBlack);
+            font-size: 70px;
+            line-height: 40px;
+
+
+        }
+
+        .carusel_desc {
+            color: var(--gray20);
+            font-size: 24px;
+            line-height: 32px;
+
+        }
+    }
+
+    .cards {
+        flex-direction: column;
+        margin: 0 19px;
+    }
+
+    .info_card1 {
+        gap: 18px;
+    }
+
+
+
+    .card2 {
+        margin-left: 56px;
+    }
+
+    .card2_info {
+        gap: 18px;
+    }
+
+
+    .card3 {
+        margin-left: 56px;
+        margin-bottom: 160px;
+
+    }
+
+    .card3_title {
+        width: 270px;
+        height: 32px;
+    }
+
+    .info_card3 {
+        gap: 18px;
+    }
+
+    .open {
+        margin-left: 34px;
+        margin-right: 34px;
+    }
+
+    .open_h2 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 40px;
+        word-wrap: break-word;
+        width: 266px;
+        height: 87px;
+
+    }
+
+    .open_desc {
+        line-height: 32px;
+        font-family: var(--fontOpensans);
+        width: 291px;
+        height: 109px;
+    }

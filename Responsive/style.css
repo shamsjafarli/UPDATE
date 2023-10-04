@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.header {
+    height: 200px;
+    background-color: red;
+}
+
+
+/* FOR MOBİLE */
+
+@media screen and (min-width: 600px) {
+
+    .header {
+        background-color: green;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* FOR TABLET */
+
+@media screen and (min-width: 900px) {
+
+    .header {
+        background-color: yellow;
+    }
+}

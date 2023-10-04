@@ -1,0 +1,13 @@
+:root {
+    --mainGreen: #71A894;
+    --textBlack: #303031;
+    --gray10: #E7E7E7;
+    --gray20: #66645E;
+
+    --mainWhite: #ffffff;
+}
+
+--fontMain: 'Roboto',
+sans-serif;
+--fontOpensans: 'Open Sans',
+sans-serif;

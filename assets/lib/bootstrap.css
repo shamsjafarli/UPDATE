@@ -1,0 +1,20 @@
+.bg-red-800 {
+    background-color: rgba(255, 0, 0, 0.482);
+}
+
+.bg-red {
+    background-color: red;
+}
+
+
+.shadow {
+    box-shadow: 0 0 5px 5px rgba(255, 0, 0, 0.482);
+}
+
+.d-none {
+    display: none;
+}
+
+.justify-center {
+    justify-content: center;
+}

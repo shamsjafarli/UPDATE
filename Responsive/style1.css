@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.header {
+    height: 100px;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+
+}
+
+
+.navbar ul a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+.btn-ham {
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    display: none;
+}
+
+
+
+.card {
+    width: 260px;
+    height: 320px;
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+.container {
+    padding: 30px 90px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: yellow;
+    justify-content: space-between;
+    gap: 20px;
+}

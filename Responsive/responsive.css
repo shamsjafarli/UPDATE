@@ -1,0 +1,38 @@
+@media screen and (max-width: 900px) {
+
+    .btn-ham {
+        display: block;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+
+    .card {
+        flex-grow: 1;
+
+    }
+
+    .container {
+        padding: 30px;
+    }
+
+    /* FOR MOBİLE */
+
+    @media screen and (max-width: 600px) {
+
+        /* .header {
+            /* background-color: green; */
+    }
+
+    */
+    /* 
+        .card {
+            width: 100%;
+        } */
+
+    /* .container {
+            padding: 10px;
+        } */
+}
